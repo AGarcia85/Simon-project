@@ -30,7 +30,7 @@ h1 {
     text-align: center;
     font-family: fantasy;
     font-size: 80px;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 10px;
     margin: 0;
 }
@@ -156,7 +156,7 @@ button:hover {
 @media screen and (max-width: 420px) {
     h1 {
         text-align: center;
-        font-size: 35px;
+        font-size: 50px;
         font-weight: bolder;
         padding: 5px;
         margin: 0;
@@ -185,5 +185,13 @@ button:hover {
     }
     footer{
         display: none;
+    }
+
+    #s {
+        color: darkred;
+    }
+
+    #n {
+        color: darkred;
     }
 }
